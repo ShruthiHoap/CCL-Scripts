@@ -1,0 +1,254 @@
+<REPORTLAYOUT name="avh_ed_amb_bed_arr_lyt" group="0" orientation="0" outputtype="1" printhead="0" intermecprinthead="0" unittype="0" pageheight="11" pagewidth="8.5" leftmargin="0.5" rightmargin="0.5" topmargin="0.5" bottommargin="0.5" destination="0" severity="1" i18nenabledliterals="0" htmltable="0" locked="0" subreport="0" version="162" timestamp="45169.9463657407" xmlversion="6" programhasprompts="1" executingprogram="" tableview="0" tableborderwidth="0.014" tablebordercolor="0" tablecolumndefault="1" tablebackcolor="16777215" tablebackmode="0" panel="1" fileversion="2.1.0.0"><RPTDESCRIPTION><![CDATA[]]></RPTDESCRIPTION><RPTSPOOLWITHOPTIONS><![CDATA[deleted,DIO=value(_DIOTYPE)]]></RPTSPOOLWITHOPTIONS><RPTLAYOUT name="HeadPageSection" height="1.05" order="0" pagebreak="0" advanceypos="1" maxheight="0" allowmaxheight="0" absolutey="0" allowabsolutey="0" keep="1" expandedheight="1" expanded="1"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="HeadPageSection" left="0.267" top="0.442" width="8.501" height="1.05" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"/><RPTPEN width="0.014" color="0" style="0"/><RPTITEM index="0"><RPTFONT ver="1" name="Times" size="1200" bold="1" italic="0" underline="0" strikethrough="0" color="0"/><RPTLABEL ver="1" name="_____60_mins" left="3.942" top="0.642" width="0.942" height="0.309" anchor="0" angle="0" flags="4" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[# <= 60 mins]]></RPTLABEL><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="1"><RPTFONT ver="1" name="Times" size="1200" bold="1" italic="0" underline="0" strikethrough="0" color="0"/><RPTLABEL ver="1" name="FieldName9" left="2.817" top="0.642" width="0.942" height="0.309" anchor="0" angle="0" flags="4" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[# <= 30 mins]]></RPTLABEL><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="2"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTLABEL ver="1" name="FieldName8" left="0.5" top="0.126" width="0.525" height="0.259" anchor="0" angle="0" flags="4" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[To:]]></RPTLABEL><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="3"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="FieldName7" left="0.942" top="0.126" width="1.875" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[$ENDDATE]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="4"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTLABEL ver="1" name="FieldName6" left="0.5" top="0.001" width="0.525" height="0.259" anchor="0" angle="0" flags="4" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[From:]]></RPTLABEL><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="5"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="CURDATE" left="7" top="0.001" width="0.967" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[CURDATE]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="6"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="FieldName5" left="0.942" top="0.001" width="1.817" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[$STARTDATE]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="7"><RPTFONT ver="1" name="Times" size="1400" bold="1" italic="0" underline="0" strikethrough="0" color="0"/><RPTLABEL ver="1" name="ED_Ambulance_Bed_Utilization" left="2.059" top="0.001" width="4.75" height="0.684" anchor="0" angle="0" flags="20" borders="0" padding="0" paddingsize="0" linespacing="1" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[ED Ambulance Bed Utilization
+	by mode(excluding private auto) and ESI]]></RPTLABEL><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="8"><RPTFONT ver="1" name="Times" size="1200" bold="1" italic="0" underline="0" strikethrough="0" color="0"/><RPTLABEL ver="1" name="FieldName3" left="2.067" top="0.642" width="0.692" height="0.309" anchor="0" angle="0" flags="4" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[Count]]></RPTLABEL><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="9"><RPTLINE ver="1" name="FieldName2" left="0.5" top="0.817" width="6.125" height="0.134" anchor="0" direction="0"><![CDATA[]]></RPTLINE><RPTPEN width="0.014" color="0" style="0"/><RPTDISPLAY><![CDATA[]]></RPTDISPLAY></RPTITEM><RPTITEM index="10"><RPTFONT ver="1" name="Times" size="1200" bold="1" italic="0" underline="0" strikethrough="0" color="0"/><RPTLABEL ver="1" name="FieldName1" left="5" top="0.642" width="1.317" height="0.309" anchor="0" angle="0" flags="4" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[Average Minutes]]></RPTLABEL><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="11"><RPTFONT ver="1" name="Times" size="1200" bold="1" italic="0" underline="0" strikethrough="0" color="0"/><RPTLABEL ver="1" name="FieldName0" left="0.75" top="0.642" width="1.25" height="0.309" anchor="0" angle="0" flags="4" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[Month]]></RPTLABEL><RPTPEN width="0.014" color="0" style="0"/></RPTITEM></RPTLAYOUT><RPTLAYOUT name="HeadADMIT_DTSection" height="0.05" order="1" pagebreak="0" advanceypos="0" maxheight="0" allowmaxheight="0" absolutey="0" allowabsolutey="0" keep="1" expandedheight="1" expanded="1"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="HeadADMIT_DTSection" left="0.267" top="1.667" width="8.501" height="0.051" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"/><RPTPEN width="0.014" color="0" style="0"/></RPTLAYOUT><RPTLAYOUT name="DetailSection" height="0.05" order="2" pagebreak="0" advanceypos="0" maxheight="0" allowmaxheight="0" absolutey="0" allowabsolutey="0" keep="1" expandedheight="1" expanded="1"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="DetailSection" left="0.267" top="1.892" width="8.501" height="0.051" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"/><RPTPEN width="0.014" color="0" style="0"/></RPTLAYOUT><RPTLAYOUT name="FootADMIT_DTSection" height="0.05" order="3" pagebreak="0" advanceypos="0" maxheight="0" allowmaxheight="0" absolutey="0" allowabsolutey="0" keep="1" expandedheight="1" expanded="1"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="FootADMIT_DTSection" left="0.267" top="2.117" width="8.501" height="0.051" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"/><RPTPEN width="0.014" color="0" style="0"/></RPTLAYOUT><RPTLAYOUT name="FootADMIT_MO_SORTSection" height="1.95" order="4" pagebreak="0" advanceypos="1" maxheight="0" allowmaxheight="0" absolutey="0" allowabsolutey="0" keep="1" expandedheight="1" expanded="1"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="FootADMIT_MO_SORTSection" left="0.267" top="2.342" width="8.501" height="1.951" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"/><RPTPEN width="0.014" color="0" style="0"/><RPTITEM index="0"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="tot_avg18" left="5.384" top="1.25" width="0.692" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(es4_avg,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="1"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="tot_avg17" left="5.375" top="1" width="0.692" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(es3_avg,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="2"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="tot_avg16" left="5.384" top="0.75" width="0.692" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(es2_avg,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="3"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="TOT_LT15" left="4.25" top="1.25" width="0.825" height="0.251" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format((es4_LT60 - mode_LT30),"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="4"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="TOT_LT14" left="4.25" top="1" width="0.825" height="0.251" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format((es3_LT60 - mode_LT30),"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="5"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="TOT_LT13" left="4.25" top="0.75" width="0.825" height="0.251" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format((es2_LT60 - mode_LT30),"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="6"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="TOT_LT12" left="3.251" top="1.25" width="0.825" height="0.251" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(es4_LT30,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="7"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="TOT_LT11" left="3.251" top="1" width="0.825" height="0.251" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(es3_LT30,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="8"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="TOT_LT10" left="3.251" top="0.75" width="0.825" height="0.251" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(es2_LT30,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="9"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="tot_avg9" left="5.384" top="0.5" width="0.692" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(es1_avg,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="10"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="TOT_LT8" left="4.25" top="0.5" width="0.825" height="0.251" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format((es1_LT60 - mode_LT30),"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="11"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="TOT_LT7" left="3.251" top="0.5" width="0.825" height="0.251" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(es1_LT30,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="12"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="mode_cnt6" left="1.817" top="1.25" width="0.692" height="0.259" anchor="0" angle="0" flags="64" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(es4_cnt,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="13"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="mode_cnt5" left="1.817" top="1" width="0.692" height="0.259" anchor="0" angle="0" flags="64" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(es3_cnt,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="14"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="mode_cnt4" left="1.817" top="0.75" width="0.692" height="0.259" anchor="0" angle="0" flags="64" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(es2_cnt,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="15"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="mode_cnt3" left="1.817" top="0.5" width="0.692" height="0.259" anchor="0" angle="0" flags="64" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(es1_cnt,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="16"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="tot_avg2" left="5.384" top="0.251" width="0.692" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(mode_avg,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="17"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="TOT_LT1" left="4.25" top="0.251" width="0.825" height="0.251" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format((mode_LT60 - mode_LT30),"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="18"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="TOT_LT0" left="3.251" top="0.251" width="0.825" height="0.251" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(Mode_LT30,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="19"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="mode_cnt" left="1.817" top="0.251" width="0.692" height="0.259" anchor="0" angle="0" flags="64" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(mode_cnt,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="20"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="ESI_4" left="0.851" top="1.25" width="1.192" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA['ESI Level 4']]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="21"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="ESI_3" left="0.851" top="1" width="1.192" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA['ESI Level 3']]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="22"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="ESI_2" left="0.851" top="0.75" width="1.192" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA['ESI Level 2']]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="23"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="ESI_1" left="0.851" top="0.5" width="1.192" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA['ESI Level 1']]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="24"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="Mode" left="0.851" top="0.251" width="1.192" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA['Mode']]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="25"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="TOT_LT60" left="4.25" top="0.001" width="0.825" height="0.251" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format((TOT_LT60 - TOT_LT30),"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="26"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="TOT_LT30" left="3.251" top="0.001" width="0.825" height="0.251" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(TOT_LT30,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="27"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="tot_cnt" left="1.817" top="0.001" width="0.692" height="0.259" anchor="0" angle="0" flags="64" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(tot_cnt,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="28"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="tot_avg" left="5.375" top="0.001" width="0.692" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(tot_avg,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="29"><RPTFONT ver="1" name="Times" size="1200" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="ADMIT_MO" left="0.75" top="0.001" width="1.192" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[ADMIT_MO]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM></RPTLAYOUT><RPTLAYOUT name="FootReportSection" height="1" order="5" pagebreak="0" advanceypos="1" maxheight="0" allowmaxheight="0" absolutey="0" allowabsolutey="0" keep="1" expandedheight="1" expanded="1"><RPTFONT ver="1" name="Times" size="1000" bold="0" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="FootReportSection" left="0.267" top="4.467" width="8.501" height="1" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"/><RPTPEN width="0.014" color="0" style="0"/><RPTITEM index="0"><RPTFONT ver="1" name="Times" size="1200" bold="1" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="GTOT_LT4" left="4.192" top="0.109" width="0.825" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format((GTOT_LT60 - GTOT_LT30),"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="1"><RPTFONT ver="1" name="Times" size="1200" bold="1" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="GTOT_LT30" left="3.251" top="0.109" width="0.825" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(GTOT_LT30,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="2"><RPTLINE ver="1" name="FieldName2" left="0.5" top="0.001" width="6.125" height="0.109" anchor="0" direction="0"><![CDATA[]]></RPTLINE><RPTPEN width="0.014" color="0" style="0"/><RPTDISPLAY><![CDATA[]]></RPTDISPLAY></RPTITEM><RPTITEM index="3"><RPTFONT ver="1" name="Times" size="1200" bold="1" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="gtot_avg" left="5.375" top="0.109" width="0.692" height="0.259" anchor="0" angle="0" flags="0" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(gtot_avg,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="4"><RPTFONT ver="1" name="Times" size="1200" bold="1" italic="0" underline="0" strikethrough="0" color="0"/><RPTTEXT ver="1" name="gtot_cnt" left="1.817" top="0.109" width="0.692" height="0.259" anchor="0" angle="0" flags="64" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[format(gtot_cnt,"#####;,")]]></RPTTEXT><RPTPEN width="0.014" color="0" style="0"/></RPTITEM><RPTITEM index="5"><RPTFONT ver="1" name="Times" size="1200" bold="1" italic="0" underline="0" strikethrough="0" color="0"/><RPTLABEL ver="1" name="FieldName0" left="1" top="0.109" width="0.992" height="0.259" anchor="0" angle="0" flags="4" borders="0" padding="0" paddingsize="0" linespacing="0" rtf="0" grow="0" backcolor="16777215" backmode="0"><![CDATA[Totals]]></RPTLABEL><RPTPEN width="0.014" color="0" style="0"/></RPTITEM></RPTLAYOUT><RPTPROMPTS><![CDATA[<prompt-def program = 'AVH_ED_AMB_BED_ARR_LYT' group = '0' auto-arrange = 'true' stream-ver = '0' export-dt-tm = '202309200650' version = '4' script-enabled = 'false' prompt-control-version = '3.000000' updt_dt_tm = '08/30/2023 08:26:37' resource-enabled = 'false',><control name = 'OUTDEV' control = '6' height = '20' width = '250' position = '0' result-type = '1' exclude = 'false',><display align = 'left',>&#038;Output to File/Printer/MINE</display,>
+<description,>Enter or select the printer or file name to send this report to.</description,>
+<default,>MINE</default,>
+<component name = 'CWizOutputDevice',><property name = 'OUTPUT-DEVICES:00',><![CDATA[HIDE-BROWSER='false' DEVICES='' DISPLAY-ALL='true' DISALLOW-FREETEXT='false'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ]],></property,>
+</component,>
+<component name = 'GENERAL',><property name = 'PROGRAM',><![CDATA[PROMPT-CONTROL-VERSION='3.000000' AUTO-ARRANGE='true' OWNER='' DU-BASE-HORZ='10' VERSION='4' STREAM-VER='0' REPORT-NAME='' UPDT_DT_TM='08/30/2023 08:26:37' DU-BASE-VERT='20' SCRIPT-ENABLED='false'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ]],></property,>
+<property name = 'PROMPT',><![CDATA[CTRL-VERT-OFFSET='' REQUIRED='false' HIDE-LABEL='false' BOTTOM='20' BORDER='false' AUTO-GROUP='false' LABEL-POS-LEFT='10' LABEL-POS-TOP='10' CTRL-WIDTH='' LEFT='160' CTRL-TOP='' EXCLUDE-RUNTIME='false' CTRL-HEIGHT='' RESIZABLE='false' RIGHT='250' CTRL-HORZ-OFFSET='' LABEL-POS-HEIGHT='13' LABEL-LEFT='true' TOP='10' TRIM='false' LABEL-POS-WIDTH='130' CTRL-LEFT='' ]],></property,>
+</component,>
+</control,>
+<control name = 'STARTDATE' control = '5' height = '18' width = '200' position = '1' result-type = '1' exclude = 'false',><display align = 'left',>Start Date</display,>
+<description,></description,>
+<default,>SYSDATE</default,>
+<component name = 'CWizDateTime',><property name = 'DATE-TIME-ATTR:00',><![CDATA[TIME-NOW='true' OUTPUT-FORMAT='DD-MMM-YYYY HH:MM:SS' ANCHOR-HOUR='' MONTH='-1' TIME-SRVTM='true' DATE-TODAY='true' DATE-LONG='true' BASE-DATE-TIME='?MBB' DATE-OFFSET='0.000000' DATE-CAL='true' LINK-INPUT='' HOUR='' ANCHOR-YEAR='' DAY='' DATE-ENABLE='true' TIME-OFFSET='0.000000' DATE-INVDATE='true' DATE-FMT='0' ENABLE-MASK='3' MINUTE='' TIME-MODE='1' TIME-REL-INPUT='true' AUTO-UPDATE='false' ANCHOR-MONTH='' YEAR='' ANCHOR-DAY='' TIME-SPININC='1' TIME-SPIN='true' TIME-NOW-INPUT='true' DATE-SPIN='true' ANCHOR-MINUTE='' TIME-ENABLE='false' DATE-SRVTM='true'                                                                                                                                                                                                                                                                                                                                                                                                                                                         ]],></property,>
+</component,>
+<component name = 'GENERAL',><property name = 'PROMPT',><![CDATA[CTRL-VERT-OFFSET='' REQUIRED='false' HIDE-LABEL='false' BOTTOM='18' BORDER='false' AUTO-GROUP='false' LABEL-POS-LEFT='10' LABEL-POS-TOP='37' CTRL-WIDTH='' LEFT='160' CTRL-TOP='' EXCLUDE-RUNTIME='false' CTRL-HEIGHT='' RESIZABLE='false' RIGHT='200' CTRL-HORZ-OFFSET='' LABEL-POS-HEIGHT='13' LABEL-LEFT='true' TOP='37' TRIM='false' LABEL-POS-WIDTH='48' CTRL-LEFT='' ]],></property,>
+</component,>
+</control,>
+<control name = 'ENDDATE' control = '5' height = '18' width = '200' position = '2' result-type = '1' exclude = 'false',><display align = 'left',>End Date</display,>
+<description,></description,>
+<default,>SYSDATE</default,>
+<component name = 'CWizDateTime',><property name = 'DATE-TIME-ATTR:00',><![CDATA[TIME-NOW='true' OUTPUT-FORMAT='DD-MMM-YYYY HH:MM:SS' ANCHOR-HOUR='' MONTH='' TIME-SRVTM='true' DATE-TODAY='true' DATE-LONG='true' BASE-DATE-TIME='?' DATE-OFFSET='0.000000' DATE-CAL='true' LINK-INPUT='' HOUR='' ANCHOR-YEAR='' DAY='' DATE-ENABLE='true' TIME-OFFSET='0.000000' DATE-INVDATE='true' DATE-FMT='0' ENABLE-MASK='3' MINUTE='' TIME-MODE='1' TIME-REL-INPUT='true' AUTO-UPDATE='false' ANCHOR-MONTH='' YEAR='' ANCHOR-DAY='' TIME-SPININC='1' TIME-SPIN='true' TIME-NOW-INPUT='true' DATE-SPIN='true' ANCHOR-MINUTE='' TIME-ENABLE='false' DATE-SRVTM='true'                                                                                                                                                                                                                                                                                                                                                                                                                                                              ]],></property,>
+</component,>
+<component name = 'GENERAL',><property name = 'PROMPT',><![CDATA[CTRL-VERT-OFFSET='' REQUIRED='false' HIDE-LABEL='false' BOTTOM='18' BORDER='false' AUTO-GROUP='false' LABEL-POS-LEFT='10' LABEL-POS-TOP='62' CTRL-WIDTH='' LEFT='160' CTRL-TOP='' EXCLUDE-RUNTIME='false' CTRL-HEIGHT='' RESIZABLE='false' RIGHT='200' CTRL-HORZ-OFFSET='' LABEL-POS-HEIGHT='13' LABEL-LEFT='true' TOP='62' TRIM='false' LABEL-POS-WIDTH='45' CTRL-LEFT='' ]],></property,>
+</component,>
+</control,>
+</prompt-def,>
+]]></RPTPROMPTS><RPTQUERY name="Query1" layout="1"><RPTQUERYSTRING><![CDATA[SELECT
+	ADMIT_DT = format(ED_PTS->ed_pt_list[D1.SEQ].ed_admit_dt,"mm/dd/yy;;q")
+	, ED_PT_LIST_ED_AMB_MINS = ED_PTS->ed_pt_list[D1.SEQ].ed_amb_mins
+	, ED_PT_LIST_ED_AMB_BED = ED_PTS->ed_pt_list[D1.SEQ].ed_amb_bed
+	, ADMIT_MO = concat(evaluate(MONTH(ed_pts->ed_pt_list[d1.seq].ed_admit_dt),1,"January",2,"February",3,"March",4,"April",5,
+"May",6,
+"June",7,"July",8,"August",9,"September",10,"October",11,"November",12,"December")," ",cnvtstring(year(ed_pts->ed_pt_list[d1.seq].
+ed_admit_dt)))
+	, ADMIT_MO_SORT = concat(cnvtstring(year(ED_PTS->ed_pt_list[d1.seq].ed_admit_dt)),cnvtstring(month(ED_PTS->ed_pt_list[d1.seq
+
+
+
+
+
+
+].ed_admit_dt)))
+	, ED_PT_LIST_ED_FIN = ED_PTS->ed_pt_list[D1.SEQ].ed_fin
+	, ED_PT_LIST_ARRIVAL_MODE = ED_PTS->ed_pt_list[D1.SEQ].arrival_mode
+	, ED_PT_LIST_ES_LEVEL = ED_PTS->ed_pt_list[D1.SEQ].es_level
+
+FROM
+	(DUMMYT   D1  WITH SEQ = VALUE(SIZE(ED_PTS->ed_pt_list, 5)))
+
+PLAN D1 
+WHERE ED_PTS->ed_pt_list[D1.SEQ].ed_amb_bed > " "
+
+ORDER BY
+	ADMIT_MO_SORT
+	, ADMIT_DT
+
+WITH NOCOUNTER, SEPARATOR=" ", FORMAT]]></RPTQUERYSTRING><RPTSELECTIF condition="1"><![CDATA[]]></RPTSELECTIF><RPTSELECTIF condition="0"><![CDATA[]]></RPTSELECTIF><RPTSELECTIF condition="0"><![CDATA[]]></RPTSELECTIF></RPTQUERY><RPTDRIVER name="avh_ed_arr_mode_driver:GROUP0" params="&quot;NL:&quot;,$STARTDATE, $ENDDATE" executionFlowOrder="41"/><RPTRECORD executionFlowOrder="20"><![CDATA[record ed_pts (
+  1 ed_pt_list [*]  
+    2 encntrid = f8   
+    2 ed_admit_dt = dq8   
+    2 ed_fin = c25   
+    2 ed_checkin = dq8   
+    2 ed_amb_start = dq8   
+    2 ed_amb_end = dq8   
+    2 ed_amb_mins = i4   
+    2 ed_amb_bed = c10   
+    2 ed_amb_payor = c100   
+    2 arrival_mode = c100   
+    2 es_level = c100   
+) 
+]]></RPTRECORD><RPTVAR name="DT_MINS" type="f8" init="0" access="1" constant="0" expression="0" executionFlowOrder="29"><RPTVARDECLARE><![CDATA[declare DT_MINS = f8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="DT_CNT" type="f8" init="0" access="1" constant="0" expression="0" executionFlowOrder="30"><RPTVARDECLARE><![CDATA[declare DT_CNT = f8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="DT_AVG" type="f8" init="0" access="1" constant="0" expression="0" executionFlowOrder="31"><RPTVARDECLARE><![CDATA[declare DT_AVG = f8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="tot_cnt" type="f8" init="0" access="1" constant="0" expression="0" executionFlowOrder="32"><RPTVARDECLARE><![CDATA[declare tot_cnt = f8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="tot_mins" type="f8" init="0" access="1" constant="0" expression="0" executionFlowOrder="33"><RPTVARDECLARE><![CDATA[declare tot_mins = f8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="tot_avg" type="f8" init="0" access="1" constant="0" expression="0" executionFlowOrder="34"><RPTVARDECLARE><![CDATA[declare tot_avg = f8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="gtot_mins" type="f8" init="0" access="1" constant="0" expression="0" executionFlowOrder="35"><RPTVARDECLARE><![CDATA[declare gtot_mins = f8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="gtot_cnt" type="f8" init="0" access="1" constant="0" expression="0" executionFlowOrder="36"><RPTVARDECLARE><![CDATA[declare gtot_cnt = f8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="gtot_avg" type="f8" init="0" access="1" constant="0" expression="0" executionFlowOrder="37"><RPTVARDECLARE><![CDATA[declare gtot_avg = f8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="DT_LT30" type="f8" init="0" access="1" constant="0" expression="0" executionFlowOrder="38"><RPTVARDECLARE><![CDATA[declare DT_LT30 = f8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="TOT_LT30" type="f8" init="0" access="1" constant="0" expression="0" executionFlowOrder="39"><RPTVARDECLARE><![CDATA[declare TOT_LT30 = f8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="GTOT_LT30" type="f8" init="0" access="1" constant="0" expression="0" executionFlowOrder="40"><RPTVARDECLARE><![CDATA[declare GTOT_LT30 = f8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="DT_LT60" type="F8" init="" access="1" constant="0" expression="0" executionFlowOrder="26"><RPTVARDECLARE><![CDATA[declare DT_LT60 = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="TOT_LT60" type="F8" init="" access="1" constant="0" expression="0" executionFlowOrder="27"><RPTVARDECLARE><![CDATA[declare TOT_LT60 = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="GTOT_LT60" type="F8" init="" access="1" constant="0" expression="0" executionFlowOrder="28"><RPTVARDECLARE><![CDATA[declare GTOT_LT60 = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="mode_cnt" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="25"><RPTVARDECLARE><![CDATA[declare mode_cnt = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="mode_lt30" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="24"><RPTVARDECLARE><![CDATA[declare mode_lt30 = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="mode_lt60" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="23"><RPTVARDECLARE><![CDATA[declare mode_lt60 = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="mode_avg" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="22"><RPTVARDECLARE><![CDATA[declare mode_avg = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="mode_mins" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="21"><RPTVARDECLARE><![CDATA[declare mode_mins = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es1_cnt" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="12"><RPTVARDECLARE><![CDATA[declare es1_cnt = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es2_cnt" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="13"><RPTVARDECLARE><![CDATA[declare es2_cnt = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es3_cnt" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="14"><RPTVARDECLARE><![CDATA[declare es3_cnt = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es4_cnt" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="10"><RPTVARDECLARE><![CDATA[declare es4_cnt = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es4_mins" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="15"><RPTVARDECLARE><![CDATA[declare es4_mins = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es3_mins" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="16"><RPTVARDECLARE><![CDATA[declare es3_mins = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es2_mins" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="17"><RPTVARDECLARE><![CDATA[declare es2_mins = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es1_mins" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="18"><RPTVARDECLARE><![CDATA[declare es1_mins = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es1_avg" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="11"><RPTVARDECLARE><![CDATA[declare es1_avg = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es2_avg" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="8"><RPTVARDECLARE><![CDATA[declare es2_avg = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es3_avg" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="9"><RPTVARDECLARE><![CDATA[declare es3_avg = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es4_avg" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="19"><RPTVARDECLARE><![CDATA[declare es4_avg = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es1_lt30" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="7"><RPTVARDECLARE><![CDATA[declare es1_lt30 = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es1_lt60" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="6"><RPTVARDECLARE><![CDATA[declare es1_lt60 = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es2_lt60" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="1"><RPTVARDECLARE><![CDATA[declare es2_lt60 = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es2_lt30" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="5"><RPTVARDECLARE><![CDATA[declare es2_lt30 = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es3_lt30" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="4"><RPTVARDECLARE><![CDATA[declare es3_lt30 = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es3_lt60" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="3"><RPTVARDECLARE><![CDATA[declare es3_lt60 = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es4_lt60" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="2"><RPTVARDECLARE><![CDATA[declare es4_lt60 = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTVAR name="es4_lt30" type="F8" init="0" access="1" constant="0" expression="0" executionFlowOrder="0"><RPTVARDECLARE><![CDATA[declare es4_lt30 = F8 with Protect]]></RPTVARDECLARE></RPTVAR><RPTHEADERS><RPTHEADER name="Head Report" version="1" keeptogether="1" keepgroup="0" repeat="0" forcefootpage="0"/><RPTHEADER name="Head Page" version="1" keeptogether="1" keepgroup="0" repeat="0" forcefootpage="0"><RPTSECTION name="HeadPageSection"/></RPTHEADER><RPTHEADER name="Head ADMIT_MO_SORT" version="1" keeptogether="1" keepgroup="0" repeat="0" forcefootpage="0"/><RPTHEADER name="Head ADMIT_DT" version="1" keeptogether="1" keepgroup="0" repeat="0" forcefootpage="0"><RPTSECTION name="HeadADMIT_DTSection"/><RPTSEGMENT name="Code Segment"><![CDATA[DT_CNT = 0
+DT_MINS = 0
+DT_LT30 = 0
+DT_LT60 = 0]]></RPTSEGMENT></RPTHEADER><RPTHEADER name="Detail" version="1" keeptogether="1" keepgroup="0" repeat="0" forcefootpage="0"><RPTSECTION name="DetailSection"/><RPTSEGMENT name="Code Segment"><![CDATA[DT_CNT = DT_CNT + 1
+DT_MINS = DT_MINS + ED_PT_LIST_ED_AMB_MINS
+tot_cnt = tot_cnt + 1
+
+tot_mins = tot_mins + ED_PT_LIST_ED_AMB_MINS
+gtot_cnt = gtot_cnt + 1
+gtot_mins = gtot_mins + ED_PT_LIST_ED_AMB_MINS
+
+if(ed_pt_list_ed_amb_mins <= 30)
+	DT_LT30 = DT_LT30 + 1
+	TOT_LT30 = TOT_LT30 + 1
+	GTOT_LT30 = GTOT_LT30 + 1
+endif
+
+if(ed_pt_list_ed_amb_mins <= 60)
+	DT_LT60 = DT_LT60 + 1
+	TOT_LT60 = TOT_LT60 + 1
+	GTOT_LT60 = GTOT_LT60 + 1
+endif
+
+if (ED_PT_LIST_ARRIVAL_MODE > " ")
+mode_mins = mode_mins + ED_PT_LIST_ED_AMB_MINS
+
+mode_cnt = mode_cnt + 1
+
+
+if(ed_pt_list_ed_amb_mins <= 30)
+	
+	mode_LT30 = mode_LT30 + 1
+	
+endif
+
+if(ed_pt_list_ed_amb_mins <= 60)
+	
+	Mode_LT60 = mode_LT60 + 1
+	
+endif
+endif
+if (ED_PT_LIST_ES_LEVEL like "1")
+es1_mins = es1_mins + ED_PT_LIST_ED_AMB_MINS
+
+es1_cnt = es1_cnt + 1
+
+
+if(ed_pt_list_ed_amb_mins <= 30)
+	
+	es1_LT30 = es1_LT30 + 1
+	
+endif
+
+if(ed_pt_list_ed_amb_mins <= 60)
+	
+	es1_LT60 = es1_LT60 + 1
+	
+endif
+endif
+if (ED_PT_LIST_ES_LEVEL like "2")
+es2_mins = es2_mins + ED_PT_LIST_ED_AMB_MINS
+
+es2_cnt = es2_cnt + 1
+
+
+if(ed_pt_list_ed_amb_mins <= 30)
+	
+	es2_LT30 = es2_LT30 + 1
+	
+endif
+
+if(ed_pt_list_ed_amb_mins <= 60)
+	
+	es2_LT60 = es2_LT60 + 1
+	
+endif
+endif
+if (ED_PT_LIST_ES_LEVEL like "3")
+es3_mins = es3_mins + ED_PT_LIST_ED_AMB_MINS
+
+es3_cnt = es3_cnt + 1
+
+
+if(ed_pt_list_ed_amb_mins <= 30)
+	
+	es3_LT30 = es3_LT30 + 1
+	
+endif
+
+if(ed_pt_list_ed_amb_mins <= 60)
+	
+	es3_LT60 = es3_LT60 + 1
+	
+endif
+endif
+if (ED_PT_LIST_ES_LEVEL like "4")
+es4_mins = es4_mins + ED_PT_LIST_ED_AMB_MINS
+
+es4_cnt = es4_cnt + 1
+
+
+if(ed_pt_list_ed_amb_mins <= 30)
+	
+	es4_LT30 = es4_LT30 + 1
+	
+endif
+
+if(ed_pt_list_ed_amb_mins <= 60)
+	
+	es4_LT60 = es4_LT60 + 1
+	
+endif
+endif]]></RPTSEGMENT></RPTHEADER><RPTHEADER name="Foot ADMIT_DT" version="1" keeptogether="1" keepgroup="0" repeat="0" forcefootpage="0"><RPTSEGMENT name="Code Segment"><![CDATA[if(DT_CNT > 0)
+	DT_AVG = DT_MINS / DT_CNT
+else
+	DT_AVG = 0
+endif]]></RPTSEGMENT><RPTSECTION name="FootADMIT_DTSection"/></RPTHEADER><RPTHEADER name="Foot ADMIT_MO_SORT" version="1" keeptogether="1" keepgroup="0" repeat="0" forcefootpage="0"><RPTSEGMENT name="Code Segment"><![CDATA[if(tot_CNT > 0)
+	tot_AVG = tot_MINS / tot_CNT
+else
+	tot_AVG = 0
+endif
+if (ED_PT_LIST_ARRIVAL_MODE > " ")
+if(mode_CNT > 0)
+	mode_AVG = mode_MINS / mode_CNT
+else
+	mode_AVG = 0
+endif
+endif
+if (ED_PT_LIST_ES_LEVEL like "1")
+if(es1_CNT > 0)
+	es1_AVG = es1_mins / es1_CNT
+else
+	es1_AVG = 0
+endif
+endif
+if (ED_PT_LIST_ES_LEVEL like "2")
+if(es2_CNT > 0)
+	es2_AVG = es2_mins / es2_CNT
+else
+	es2_AVG = 0
+endif
+endif
+if (ED_PT_LIST_ES_LEVEL like "3")
+if(es3_CNT > 0)
+	es3_AVG = es3_mins / es3_CNT
+else
+	es3_AVG = 0
+endif
+endif
+if (ED_PT_LIST_ES_LEVEL like "4")
+if(es4_CNT > 0)
+	es4_AVG = es4_mins / es4_CNT
+else
+	es4_AVG = 0
+endif
+endif]]></RPTSEGMENT><RPTSECTION name="FootADMIT_MO_SORTSection"/><RPTSEGMENT name="Code Segment"><![CDATA[tot_cnt = 0
+tot_mins = 0
+TOT_LT30 = 0
+TOT_LT60= 0
+mode_cnt =0
+mode_LT30 =0
+mode_LT60 =0
+mode_mins =0
+es1_cnt =0
+es1_mins= 0
+es1_LT30= 0
+es1_LT60= 0
+es2_cnt= 0
+es2_mins= 0
+es2_LT30= 0
+es2_LT60= 0
+es3_cnt= 0
+es3_mins= 0
+es3_LT30= 0
+es3_LT60= 0
+es4_cnt  = 0
+es4_mins = 0
+es4_LT30 = 0
+es4_LT60 = 0]]></RPTSEGMENT></RPTHEADER><RPTHEADER name="Foot Report" version="1" keeptogether="1" keepgroup="0" repeat="0" forcefootpage="0"><RPTSEGMENT name="Code Segment"><![CDATA[if(gtot_cnt > 0)
+	gtot_avg = gtot_mins / gtot_cnt
+else
+	gtot_avg = 0
+endif]]></RPTSEGMENT><RPTSECTION name="FootReportSection"/></RPTHEADER><RPTHEADER name=""><RPTINITIALIZE name="InitializeReport"/><RPTQUERY name="Query1"/><RPTFINALIZE name="FinalizeReport"/></RPTHEADER></RPTHEADERS></REPORTLAYOUT>
